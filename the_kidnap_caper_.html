@@ -43,10 +43,10 @@ ROOM 0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,b,b,b,b,b,b,b,b,b,b,b,b,b,b,0
 0,b,0,0,0,0,0,0,0,0,0,0,0,0,b,0
+0,b,0,0,0,0,0,0,0,0,0,16,0,16,b,0
 0,b,0,0,0,0,0,0,0,0,0,0,0,0,b,0
-0,b,0,0,0,0,0,0,0,0,0,0,0,0,b,0
-0,b,0,0,0,0,0,0,0,0,0,0,0,0,b,0
-0,b,0,0,0,0,0,0,0,0,0,0,0,0,b,0
+0,b,0,0,0,0,0,0,0,0,0,16,0,16,b,0
+0,b,0,0,0,0,0,0,0,0,0,16,16,16,b,0
 0,b,0,0,0,d,d,d,d,d,d,d,d,d,f,e
 0,b,0,0,0,d,d,0,0,0,0,0,0,0,b,0
 0,b,0,0,0,d,d,0,0,0,0,0,0,0,b,0
@@ -62,17 +62,17 @@ EXT 14,7 1 1,7 FX fade_w DLG 6
 PAL 1
 
 ROOM 1
-0,0,0,j,j,j,j,j,j,j,j,j,j,j,0,0
+0,15,0,j,j,j,j,j,j,j,j,j,j,j,0,0
 0,0,0,j,j,j,j,j,k,j,j,j,j,j,0,0
-0,0,0,0,0,0,0,0,d,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,d,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,d,0,0,0,0,0,b,b
-0,0,0,0,0,0,0,0,d,0,0,0,0,0,b,0
-0,0,0,0,0,0,0,0,d,0,0,0,0,0,b,0
+16,15,0,0,16,0,0,0,d,0,0,0,16,0,15,0
+0,0,0,0,16,0,15,0,d,16,15,11,0,16,0,0
+0,16,0,11,0,15,0,0,d,0,12,10,13,0,b,b
+0,0,12,10,13,0,0,0,d,0,0,14,0,0,b,0
+0,0,15,14,0,0,15,0,d,0,0,0,16,0,b,0
 e,d,d,d,d,d,d,d,d,d,d,d,d,d,f,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,b,0
-h,0,0,0,0,0,0,h,0,0,0,0,0,0,b,b
-0,i,0,0,0,0,g,0,i,0,0,0,0,h,0,0
+0,16,0,0,16,0,0,15,0,16,0,0,0,0,b,0
+h,0,16,0,0,0,0,h,0,0,0,16,0,0,b,b
+0,i,0,0,15,0,g,0,i,0,15,0,15,h,0,0
 h,0,i,0,0,g,0,h,g,i,0,0,g,0,i,0
 0,i,0,i,g,i,g,0,i,0,i,g,0,h,g,i
 0,g,i,g,0,g,i,0,0,i,0,i,g,0,i,0
@@ -88,39 +88,40 @@ ROOM 2
 0,b,b,b,b,b,b,b,b,b,b,b,b,b,b,0
 0,b,0,0,0,0,0,0,0,0,0,0,0,0,b,0
 0,b,0,0,0,0,0,0,0,0,l,0,0,0,b,0
-0,b,0,0,0,0,0,0,0,0,d,d,0,0,b,0
-0,b,0,0,0,0,0,0,0,d,d,d,0,0,b,0
-0,b,0,0,0,0,0,0,0,d,0,0,0,h,b,0
+0,b,0,0,0,0,18,0,0,0,d,d,0,0,b,0
+0,b,0,0,0,0,d,0,0,d,d,d,0,0,b,0
+0,b,0,0,0,0,d,0,0,d,0,0,0,h,b,0
 0,f,d,d,d,d,d,d,d,d,0,0,g,i,i,0
 0,b,0,0,0,0,0,0,0,0,0,g,i,h,i,i
 0,b,0,0,0,0,0,0,0,0,g,0,g,0,i,i
-0,b,0,0,0,0,0,0,0,g,h,g,0,0,0,i
-0,b,0,0,0,0,0,0,g,g,0,i,0,0,h,0
-0,b,0,0,0,0,0,g,g,0,0,0,i,g,0,i
+0,b,0,16,16,16,0,0,0,g,h,g,0,0,0,i
+0,b,0,16,0,16,0,0,g,g,0,i,0,0,h,0
+0,b,0,16,16,16,0,g,g,0,0,0,i,g,0,i
 0,b,0,0,0,0,g,g,0,0,0,0,g,i,0,0
 0,b,b,b,b,b,g,0,0,0,0,g,0,0,i,0
 0,0,0,0,0,g,0,0,0,0,g,0,0,0,0,i
 NAME Next Town
 ITM 3 10,2
 EXT 1,7 1 14,7 FX fade_w
+EXT 6,4 8 7,12 FX fade_w
 PAL 1
 
 ROOM 3
 0,j,0,0,0,0,j,0,j,0,j,j,j,j,0,0
 j,0,j,0,j,j,0,j,0,j,0,0,0,0,j,0
-0,j,0,j,j,0,0,0,0,0,0,j,0,0,0,j
+0,j,16,j,j,0,0,0,0,0,0,j,0,0,0,j
 0,j,0,0,0,0,0,0,m,0,0,0,j,0,0,j
-j,0,0,j,0,0,0,j,0,0,0,0,0,0,j,0
-0,j,0,0,0,0,0,0,j,0,j,j,0,0,0,j
-j,0,0,0,0,0,j,0,0,0,0,0,0,0,0,j
+j,0,0,j,0,0,16,j,0,0,0,0,0,0,j,0
+0,j,0,16,0,0,0,0,j,0,j,j,0,0,0,j
+j,16,0,0,0,0,j,0,0,0,0,0,0,16,0,j
 0,j,j,0,0,0,0,0,0,0,0,j,0,0,j,0
 0,j,0,0,0,j,0,0,0,0,0,0,0,j,0,0
 j,0,0,0,0,0,0,0,0,j,0,0,0,0,0,j
-j,0,0,j,0,j,0,0,0,0,0,0,j,0,j,0
+j,0,16,j,0,j,0,0,0,0,0,0,j,0,j,0
 0,j,0,0,0,0,0,0,0,j,0,j,0,0,j,0
-j,0,0,0,j,0,0,0,j,0,j,0,0,0,0,j
-j,0,0,0,0,0,0,0,0,0,0,0,0,j,0,0
-0,j,0,j,0,j,0,0,0,j,j,0,j,0,0,0
+j,0,0,0,j,0,0,0,j,0,j,0,0,0,16,j
+j,0,0,0,0,0,0,0,0,0,0,0,0,j,0,j
+0,j,0,j,0,j,0,0,0,j,j,0,j,0,j,0
 0,0,j,0,j,0,j,k,j,0,0,j,0,0,0,0
 NAME Forest
 EXT 8,3 4 4,9 FX fade_w
@@ -131,39 +132,39 @@ ROOM 4
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,t,s,s,s,s,s,s,s,s,r,0,0,0
-0,0,0,n,0,0,0,n,0,0,0,0,n,0,0,0
+0,0,0,n,17,0,z,n,0,0,0,0,n,0,0,0
 0,0,0,n,0,0,0,n,v,w,0,z,n,0,0,0
 0,0,0,n,0,0,0,n,0,0,0,0,n,0,0,0
 0,0,0,n,0,0,0,n,0,0,0,0,n,0,0,0
 0,0,0,n,0,0,0,o,p,0,p,p,u,0,0,0
 0,0,0,n,0,0,0,0,0,0,0,0,n,0,0,0
 0,0,0,n,0,0,0,0,0,0,0,0,n,0,0,0
-0,0,0,n,0,0,0,0,0,0,0,y,n,0,0,0
+0,0,0,n,17,0,0,0,z,0,0,y,n,0,0,0
 0,0,0,n,0,0,0,0,0,0,0,0,n,0,0,0
 0,0,0,o,p,p,p,p,p,p,p,p,q,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME Cabin
 ITM 4 10,6
-EXT 11,11 6 10,3 FX fade_w
+EXT 11,11 6 10,3 FX fade_w DLG 1b
 PAL 1
 
 ROOM 6
 0,j,0,0,0,0,j,0,j,0,j,j,j,j,0,0
 j,0,j,0,j,j,0,j,0,j,0,0,0,0,j,0
-0,j,0,j,j,0,0,0,0,0,0,j,0,0,0,j
+0,j,16,j,j,0,0,0,0,0,0,j,0,0,0,j
 0,j,0,0,0,0,0,0,m,0,0,0,j,0,0,j
-j,0,0,j,0,0,0,j,0,0,0,0,0,0,j,0
-0,j,0,0,0,0,0,0,j,0,j,j,0,0,0,j
-j,0,0,0,0,0,j,0,0,0,0,0,0,0,0,j
+j,0,0,j,0,0,16,j,0,0,0,0,0,0,j,0
+0,j,0,16,0,0,0,0,j,0,j,j,0,0,0,j
+j,16,0,0,0,0,j,0,0,0,0,0,0,16,0,j
 0,j,j,0,0,0,0,0,0,0,0,j,0,0,j,0
 0,j,0,0,0,j,0,0,0,0,0,0,0,j,0,0
 j,0,0,0,0,0,0,0,0,j,0,0,0,0,0,j
-j,0,0,j,0,j,0,0,0,0,0,0,j,0,j,0
+j,0,16,j,0,j,0,0,0,0,0,0,j,0,j,0
 0,j,0,0,0,0,0,0,0,j,0,j,0,0,j,0
-j,0,0,0,j,0,0,0,j,0,j,0,0,0,0,j
-j,0,0,0,0,0,0,0,0,0,0,0,0,j,0,0
-0,j,0,j,0,j,0,0,0,j,j,0,j,0,0,0
+j,0,0,0,j,0,0,0,j,0,j,0,0,0,16,j
+j,0,0,0,0,0,0,0,0,0,0,0,0,j,0,j
+0,j,0,j,0,j,0,0,0,j,j,0,j,0,j,0
 0,0,j,0,j,0,j,k,j,0,0,j,0,0,0,0
 NAME Forest2
 EXT 8,3 4 4,9 FX fade_w
@@ -173,10 +174,10 @@ ROOM 7
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,b,b,b,b,b,b,b,b,b,b,b,b,b,b,0
 0,b,0,0,0,0,0,0,0,0,0,0,0,0,b,0
+0,b,0,0,0,0,0,0,0,0,0,16,0,16,b,0
 0,b,0,0,0,0,0,0,0,0,0,0,0,0,b,0
-0,b,0,0,0,0,0,0,0,0,0,0,0,0,b,0
-0,b,0,0,0,0,0,0,0,0,0,0,0,0,b,0
-0,b,0,0,0,0,0,0,0,0,0,0,0,0,b,0
+0,b,0,0,0,0,0,0,0,0,0,16,0,16,b,0
+0,b,0,0,0,0,0,0,0,0,0,16,16,16,b,0
 0,b,0,0,0,d,d,d,d,d,d,d,d,d,f,e
 0,b,0,0,0,d,d,0,0,0,0,0,0,0,b,0
 0,b,0,0,0,d,d,0,0,0,0,0,0,0,b,0
@@ -189,6 +190,232 @@ ROOM 7
 NAME Ending Village
 EXT 14,7 1 1,7 FX fade_w DLG 6
 PAL 1
+
+ROOM 8
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,t,s,s,s,s,s,s,s,r,0,0,0
+0,0,0,0,n,0,0,1a,1b,0,1c,0,n,0,0,0
+0,0,0,0,n,0,0,0,0,0,0,0,n,0,0,0
+0,0,0,0,n,0,17,0,0,z,0,0,n,0,0,0
+0,0,0,0,n,0,0,0,0,0,0,0,n,0,0,0
+0,0,0,0,n,0,0,0,0,0,0,0,n,0,0,0
+0,0,0,0,n,0,0,0,0,0,0,0,n,0,0,0
+0,0,0,0,n,0,0,0,0,0,0,0,n,0,0,0
+0,0,0,0,n,0,0,0,0,0,0,0,n,0,0,0
+0,0,0,0,n,0,0,19,0,0,0,0,n,0,0,0
+0,0,0,0,o,p,p,p,p,p,p,p,q,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME Mayor's House
+ITM 5 8,5
+ITM 5 11,4
+EXT 7,12 2 6,4 FX fade_w
+PAL 1
+
+ROOM 9
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,b,b,b,b,b,b,b,b,b,b,b,b,b,b,0
+0,b,0,0,0,0,0,0,0,0,0,0,0,0,b,0
+0,b,0,0,0,0,0,0,0,0,0,16,0,16,b,0
+0,b,0,0,0,0,0,0,0,0,0,0,0,0,b,0
+0,b,0,0,0,0,0,0,0,0,0,16,0,16,b,0
+0,b,0,0,0,0,0,0,0,0,0,16,16,16,b,0
+0,b,0,0,0,d,d,d,d,d,d,d,d,d,f,e
+0,b,0,0,0,d,d,0,0,0,0,0,0,0,b,0
+0,b,0,0,0,d,d,0,0,0,0,0,0,0,b,0
+0,b,0,0,0,d,d,0,c,c,c,c,c,0,b,0
+0,b,0,0,0,d,d,d,0,0,0,0,c,0,b,0
+0,b,0,0,0,d,d,d,0,0,0,0,c,0,b,0
+0,b,0,0,0,0,0,0,c,0,0,0,c,0,b,0
+0,b,b,b,b,b,b,b,b,b,b,b,b,b,b,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME Ending Village2
+EXT 14,7 1 1,7 FX fade_w DLG 6
+PAL 1
+
+TIL 10
+00010010
+11110011
+00010000
+00000100
+11100011
+00100010
+00100010
+00100010
+>
+00100100
+11100111
+00100000
+00001000
+11100111
+00100100
+00100100
+00100100
+NAME Cactus1
+WAL true
+
+TIL 11
+00000000
+00000000
+00001000
+00010100
+00100010
+01010101
+01000010
+00111110
+>
+00000000
+00000000
+00010000
+00101000
+01000100
+10101010
+01000010
+00111110
+NAME CactusTop
+WAL true
+
+TIL 12
+00111000
+00101111
+00100100
+00110000
+00111111
+00000000
+00000000
+00000000
+>
+00000000
+00111111
+00110000
+00100100
+00101111
+00111000
+00000000
+00000000
+NAME Cactus3
+WAL true
+
+TIL 13
+00000000
+11111100
+01001100
+00110100
+11110100
+00011100
+00000000
+00000000
+>
+00011100
+11110100
+00110100
+01001100
+11111100
+00000000
+00000000
+00000000
+NAME Cactus4
+WAL true
+
+TIL 14
+00100010
+00110010
+00111110
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00100100
+00110100
+00111100
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME CactusBottom
+WAL true
+
+TIL 15
+00000110
+00001001
+00010111
+00010101
+00011010
+00000100
+00001110
+00000000
+>
+00001100
+00010010
+00101110
+00101010
+00110100
+00001000
+00001110
+00000000
+NAME Flower
+WAL true
+
+TIL 16
+00000000
+00000000
+00000000
+00000000
+00011100
+00010100
+00001000
+00011000
+>
+00000000
+00000000
+00000000
+00000000
+00111000
+00101000
+00010000
+00011000
+NAME SmallFlower
+WAL false
+
+TIL 17
+00000000
+00100000
+00100000
+00100000
+00100000
+00111100
+00100100
+00100100
+NAME Chair2
+WAL true
+
+TIL 18
+00011000
+00111100
+11111111
+11111111
+10000001
+10011101
+10010101
+11110111
+NAME Mayor's House
+WAL false
+
+TIL 19
+00000000
+00000000
+00011110
+00011110
+00011110
+00011110
+00011110
+00011110
+NAME Exit2
 
 TIL a
 11111111
@@ -471,16 +698,6 @@ TIL w
 NAME Bed2
 WAL true
 
-TIL x
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-
 TIL y
 00000000
 00000000
@@ -502,6 +719,217 @@ TIL z
 00100100
 00100100
 NAME Chair
+WAL true
+
+TIL 1a
+00000000
+00000000
+00000000
+00000000
+00000001
+00000010
+00000010
+00000001
+>
+00000000
+00000000
+00000000
+00000001
+00000010
+00000010
+00000010
+00000001
+NAME Flame
+WAL true
+
+TIL 1b
+00000000
+00000000
+00000000
+00000000
+10000000
+01000000
+01000000
+10000000
+>
+00000000
+00000000
+00000000
+10000000
+01000000
+01000000
+01000000
+10000000
+NAME Flame2
+WAL true
+
+TIL 1c
+00000000
+00000000
+00000000
+00000000
+00111000
+00101100
+00100110
+00111110
+NAME Cheese
+
+SPR 10
+00010000
+00010000
+00010000
+00011111
+00000001
+00000001
+00000001
+00000111
+NAME Table5
+DLG 17
+POS 8 7,6
+
+SPR 11
+00001000
+00001000
+00001000
+11111000
+10000000
+10000000
+10000000
+11100000
+NAME Table6
+DLG 18
+POS 8 8,6
+
+SPR 12
+00000001
+00000001
+00000001
+00000011
+00000100
+00000010
+00000010
+00011111
+NAME Table7
+DLG 19
+POS 8 7,5
+
+SPR 13
+10000000
+10000000
+10000000
+11000000
+00100000
+01000000
+01000000
+11111000
+NAME Table8
+DLG 1a
+POS 8 8,5
+
+SPR 14
+01111000
+00100010
+00110001
+00110011
+01111100
+10111100
+00100100
+00100100
+NAME HorseBad2
+DLG 1d
+POS 3 15,8
+
+SPR 15
+00011000
+00011000
+01111110
+10111101
+10111101
+01111110
+00100100
+00100100
+NAME Cowhand3
+DLG 1e
+POS 9 4,4
+
+SPR 16
+00111100
+01011010
+00011000
+01111110
+10111101
+00111100
+01111110
+00100100
+>
+00111100
+01011010
+10011000
+01111110
+00111101
+00111100
+01111110
+00100100
+NAME SisterHappy2
+DLG 1h
+POS 9 8,6
+
+SPR 17
+00011000
+00001100
+00011010
+00111100
+01011010
+00011000
+00011000
+00011100
+>
+00111000
+01010000
+00011000
+00111100
+01011010
+00011000
+00011000
+00111000
+NAME Girl2
+DLG 1m
+POS 9 6,6
+
+SPR 18
+00100000
+01000000
+01100000
+00100000
+00111110
+00111101
+00100100
+00100100
+>
+00000000
+00100000
+01000000
+01100000
+00100000
+00111110
+00111101
+00100100
+NAME Horse2
+DLG 1l
+POS 9 6,3
+
+SPR 19
+00000000
+00111000
+00010100
+00110010
+01110000
+00111000
+00111000
+01111100
+NAME RelievedLady2
+DLG 1f
+POS 9 8,4
 
 SPR A
 00011000
@@ -534,7 +962,7 @@ SPR a
 00100100
 NAME cat
 DLG 0
-POS 7 13,7
+POS 2 4,11
 
 SPR b
 00000000
@@ -737,6 +1165,286 @@ NAME Girl
 DLG s
 POS 7 6,6
 
+SPR n
+00111100
+01011010
+00011000
+01111110
+10111101
+00111100
+01111110
+00100100
+>
+00111100
+01011010
+10011000
+01111110
+00111101
+00111100
+01111110
+00100100
+NAME Sister
+DLG t
+POS 0 9,4
+
+SPR o
+00000000
+00001100
+01010100
+01110110
+01110000
+01111110
+00111101
+00111101
+>
+00001110
+00000010
+01010010
+01110011
+01110000
+01111110
+00111101
+00111101
+NAME CatSleeping
+DLG u
+POS 7 13,7
+
+SPR p
+11111111
+10000001
+10110101
+10110101
+10000001
+11111111
+01000010
+11000011
+NAME Cabinet
+DLG v
+POS 4 5,4
+
+SPR q
+11111111
+10000000
+10111100
+10111100
+10000000
+11111111
+01000010
+11100111
+NAME Table1
+DLG w
+POS 4 5,11
+
+SPR r
+11111111
+00000000
+10101000
+11111000
+00100000
+11111111
+00010000
+00111000
+NAME Table2
+DLG x
+POS 4 6,11
+
+SPR s
+11111111
+00000001
+00011001
+00011001
+00000001
+11111111
+01000010
+11100111
+NAME Table3
+DLG y
+POS 4 7,11
+
+SPR t
+00111100
+01011010
+00011000
+01111110
+10111101
+00111100
+01111110
+00100100
+>
+00111100
+01011010
+10011000
+01111110
+00111101
+00111100
+01111110
+00100100
+NAME SisterHappy
+DLG z
+POS 7 8,6
+
+SPR u
+01001000
+00100100
+01001000
+00100100
+00000000
+00111100
+00111100
+00000000
+>
+00010100
+00100010
+00010100
+00100010
+00000000
+00111100
+00111100
+00000000
+NAME Campfire1
+DLG 10
+POS 3 8,7
+
+SPR v
+00000000
+00000000
+00000110
+00000110
+00000110
+00000110
+00000000
+00000000
+NAME Log1
+DLG 11
+POS 3 7,7
+
+SPR w
+00000000
+00000000
+01100000
+01100000
+01100000
+01100000
+00000000
+00000000
+NAME Log2
+DLG 12
+POS 3 9,7
+
+SPR x
+00000000
+00000000
+00000000
+00000000
+00000000
+00111100
+00111100
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00111100
+00111100
+00000000
+NAME Campfire2
+DLG 13
+POS 6 8,7
+
+SPR y
+00000000
+00000000
+00000110
+00000110
+00000110
+00000110
+00000000
+00000000
+NAME Log3
+DLG 1c
+POS 6 7,7
+
+SPR z
+00000000
+00000000
+01100000
+01100000
+01100000
+01100000
+00000000
+00000000
+NAME Log4
+DLG 15
+POS 6 9,7
+
+SPR 1a
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010100
+01110100
+01110010
+01111100
+00111100
+00100100
+NAME Cat2
+DLG 1k
+POS 9 4,8
+
+SPR 1b
+00000000
+00000000
+00000000
+00000010
+00000001
+00010010
+00011100
+00111100
+>
+00000000
+00000000
+00000000
+00000100
+00000010
+00010100
+00011100
+00111100
+NAME Mouse2
+DLG 1i
+POS 9 2,9
+
+SPR 1c
+00000000
+00000000
+00000000
+00000010
+00000001
+00010010
+00011100
+00111100
+>
+00000000
+00000000
+00000000
+00000100
+00000010
+00010100
+00011100
+00111100
+NAME Mouse3
+DLG 1j
+POS 9 3,9
+
 ITM 0
 00000000
 00000000
@@ -815,8 +1523,53 @@ ITM 4
 NAME Girl
 DLG h
 
+ITM 5
+00000000
+00000000
+00000000
+00000010
+00000001
+00010010
+00011100
+00111100
+>
+00000000
+00000000
+00000000
+00000100
+00000010
+00010100
+00011100
+00111100
+NAME Mouse
+DLG 16
+
 DLG 0
-Meow
+"""
+{sequence
+  - Meow...
+  - {rbw}Meow{rbw}
+  - {wvy}Meow{wvy}
+  - {shk}Meow{shk}
+  -  Meow{printItem "3"}
+  -  Meow Meow
+  -  {wvy}Purr...{wvy}
+  -  Meow?
+  -  Meo- OK fine, human, you win. Fetch me a mouse and I shall assist you.
+  - {
+      - {item "5"} == 1 ?
+        Thank you veowmy much, human. Now let {rbw}ME{rbw} help YOU.
+        (Suddenly, the cat starts glowing and the girl appears in front of you.)
+        {pg}
+        Being a magical cat definitely has its puurks. Goodbye, now!
+        (You take the girl back to the village, with much praise when you get back.)
+        {pg}
+        {exit "9" 3 8 "fade_w"}
+      - else ?
+        Have you found that mouse yet, human? You haven't gotten all day to find that girl {printSprite "m"} now, do you?
+    }
+}
+"""
 NAME cat dialog
 
 DLG 1
@@ -855,6 +1608,46 @@ NAME exit narration 1
 DLG 9
 You got on your horse {printItem "2"}
 NAME Horse dialog
+
+DLG 10
+(Smoke is rising from a now inactive campfire.)
+NAME sprite u dialog
+
+DLG 11
+(A log perfect for sitting by the campfire. If only there was time!)
+NAME Log1 dialog
+
+DLG 12
+(A log that's not as good for the campfire than the other, objectively better log.)
+NAME Log2 dialog
+
+DLG 13
+(The smoke has dispersed from the campfire.
+NAME Campfire2 dialog
+
+DLG 15
+(This log is still the runner-up.)
+NAME Log4 dialog
+
+DLG 16
+"""
+*Squeak squeak*
+{pg}
+You have obtained a mouse. Nasty.
+"""
+NAME Mouse dialog
+
+DLG 17
+(A table with a big pretty candle.)
+NAME Table5 dialog
+
+DLG 18
+(The other side of the table with the big pretty candle.)
+NAME Table6 dialog
+
+DLG 19
+(Part of the big pretty candle in question.)
+NAME Table7 dialog
 
 DLG a
 """
@@ -905,8 +1698,11 @@ NAME Cabin2 dialog
 DLG j
 """
 I hope nothing happened at the cabin while I was out... Oh no, you escaped! 
+{pg}
 {item "3" {{item "3"} - 1}}
-You toss the firecrackers at his horse, causing his horse to run off with him still on it.{
+You toss the firecrackers at his horse, causing his horse to run off with him still on it.
+{pg}
+{
   - {item "3"} == 0 ?
     With the bad guy dispatched of, you return to the village with the girl you saved.
     {exit "7" 3 8 "fade_w"}
@@ -919,6 +1715,7 @@ NAME HorseBad dialog
 DLG p
 """
 Thank you so much for rescuing my daughter! We could always use your help again!
+{pg}
 {wvy}The End{wvy}
 {end}
 """
@@ -936,20 +1733,95 @@ DLG s
 Thank you for saving me from those nasty men!
 NAME Girl dialog
 
-DLG k
- 
+DLG t
+Oh, will you please help find my sister {printSprite "m"}? Those bandits are so scary!
+NAME Sister dialog
 
-DLG l
- 
+DLG u
+(The cat is sleeping...)
+NAME CatSleeping dialog
 
-DLG m
- 
+DLG v
+(A table with a badly written ransom note stating "Attenshun, this ransum noote is fore teh returne of thiss heer girl. Oll othere offferss willl bee turmenated.")
+NAME Cabinet dialog
 
-DLG n
- 
+DLG w
+(A table with some lukewarm food still on it.)
+NAME Table1 dialog
 
-DLG o
- 
+DLG x
+(A table with a candelabra.)
+NAME Table2 dialog
+
+DLG y
+(A table with a plate on it).
+NAME Table3 dialog
+
+DLG z
+Thank you so much for finding my sister! Those baddies will surely not come back around these parts!
+NAME SisterHappy dialog
+
+DLG 1a
+(The other part of the big pretty candle.)
+NAME Table8 dialog
+
+DLG 1b
+"""
+{
+  - {item "4"} >= 1 ?
+    {property locked false}
+    You were able to sneak the girl out of the cabin!
+  - else ?
+    {property locked true}
+    It's probably not the best idea to leave without the person you came to rescue!
+}
+"""
+NAME locked exit 4
+
+DLG 1c
+(This log still looks perfect to sit on.
+NAME Log3 dialog
+
+DLG 1d
+Where is that dadgum cabin at, anyways? (You decide to sneak past him while he's distracted.)
+NAME HorseBad2 dialog
+
+DLG 1e
+Good job dude! I didn't know that there were magic cats in these parts!
+NAME Cowhand3 dialog
+
+DLG 1f
+"""
+Good job on getting my darling daughter back! I wonder if you could have succeeded without the help of that cat though...
+{wvy}The End{wvy}
+{pg}
+{end}
+"""
+NAME RelievedLady2 dialog
+
+DLG 1h
+Good job on recruiting that cat to save my sister! I guess it's a lot safer to do that then to tackle the problem yourself!
+NAME SisterHappy2 dialog
+
+DLG 1i
+*Squeak Squeak*
+NAME Mouse2 dialog
+
+DLG 1j
+*Squeak Squeak*
+NAME Mouse3 dialog
+
+DLG 1k
+No need to thank me for the help, human. After all, the two robbers seemed to have disappeared and coincidentally, there are two new mice here.
+NAME Cat2 dialog
+
+DLG 1l
+*Neigh*
+NAME Horse2 dialog
+
+DLG 1m
+Thank you for asking that cat to save me!
+NAME Girl2 dialog
 
 VAR a
 42
@@ -958,22 +1830,24 @@ VAR a
 </script>
 
 <style>
-/*html { height: 592px; }*/
+html {
+	margin:0px;
+	padding:0px;
+}
 
 body {
-	width:100%;
-	height:100%;
+	margin:0px;
+	padding:0px;
 	overflow:hidden;
 	background:#000000;
 }
 
 #game {
 	background:black;
-	margin: 0 auto;
-	margin-top: 40px;
-	display: block;
-	width:512px;
-	height:@@Z;
+	width:100vw;
+	max-width:100vh;
+	margin:auto;
+	display:block;
 }
 </style>
 
